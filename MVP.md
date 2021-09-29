@@ -2,7 +2,7 @@
 
 The goal of this project is to build a deep learning model to identify if a patient is healthy or has pneumonia through X ray images.
 
-My baseline CNN model consists of four convolutional layers (Conv2D + MaxPooling2D ), followed by a Flatten, and then two Dense layers with a Dropout in between.  It was set to run with 30 epochs with an early stop if validation loss does not improve after 5 epochs.
+My baseline CNN model consists of four convolutional layers (Conv2D + MaxPooling2D ), followed by a Flatten, and then two Dense layers with a Dropout in between.  
 
 The model stopped at epochs 18 and provided a validation accuracy score of 0.976. However, when plotting out the binaryentropy loss and accuracy through out the training below, it seems the model is overfitting.
 
